@@ -1,161 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1, initial-scale=1.0">
-    <title>Cetonas en el ciclismo </title>
-    <link rel="preload" href="style/normalize.css" as="style">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="style/css.css" as="style">
-    <link rel="stylesheet" href="style/css.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Navegacion con tabs</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="font-awesome.css">
 
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="main.js"></script>
 </head>
-
 <body>
-    <header>
-        <h1 class="titulo"> PROYECTO DE INVESTIGACION 
-            <br><span>UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE</span>
-        </h1>
-    </header>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Investigacion Deportiva</a>
-        </nav>
-    </div>
+	<div class="wrap">
+		<ul class="tabs">
+			<li><a href="#tab1"><span class="fa fa-home"></span><span class="tab-text">Inicio</span></a></li>
+			<li><a href="#tab2"><span class="fa fa-group"></span><span class="tab-text">Quienes Somos</span></a></li>
+			<li><a href="#tab3"><span class="fa fa-briefcase"></span><span class="tab-text">Integrantes</span></a></li>
+			<li><a href="#tab4"><span class="fa fa-bookmark"></span><span class="tab-text">Proyectos</span></a></li>
+		</ul>
 
-    <section class="hero">
-        <div class="contenido-hero">
-            <h2>Cetonas en el ciclismo </h2>
-            <div class="ubicacion">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88"
-                    height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <circle cx="12" cy="11" r="3" />
-                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-                </svg>
-                <p>Sangolqui, Ecuador</p>
-            </div>
-            <a class="boton" target="_blank" rel="noopener" href="http://sitkotraining.com/cetonas-en-el-ciclismo-dopaje-placebo-o-un-simple-suplemento/">
-                Mas informacion
-            </a>
-        </div>
+		<div class="secciones">
+			<article id="tab1">
+				<h1>Bienvenidos</h1>
+				<br />
+				<p>Bienvenidos al sitio web oficial del Centro de Investigación Geoespacial de la Universidad de las Fuerzas Armadas – ESPE y de la Revista Científica Geoespacial.</p>
+				<p>El objetivo principal del Centro Geoespacial, es la generación de nuevos conocimientos relacionados con el estudio del Sistema Tierra, mediante la integración de los conceptos y procesos obtenidos en las diferentes áreas de las geociencias y de las tecnologías  geoespaciales.</p>
+				<p>Los conocimientos generados y el desarrollo de nuevas aplicaciones de acuerdo con las condiciones y realidad del territorio, aportarán un valor agregado a la sociedad ya que a partir de ellos, se establece las bases y el compromiso para una mejor planificación de sus recursos.<br /></p>
+				<br />
+				<p>CENTRO DE INVESTIGACIONES CIENTÍFICAS. BLOQUE CEINCI UNIVERSIDAD DE LAS FUERZAS ARMADAS - ESPE. CAMPUS PRINCIPAL</p>
+				<br />
+				<p>Av. Gral Rumiñahui S/N y Paseo Escénico Santa Clara.Sangolquí - Ecuador. Teléfono: (02) 3989-492</p>
+			</article>
+			<article id="tab2">
+				<h1>Quienes Somos</h1>
+				<p>El  Centro de Investigación Geoespacial, se dedica a la realización de investigaciones relacionadas con el Sistema Tierra, a partir de la integración de los conocimientos de las diferentes áreas de las Geociencias y de las Tecnologías  Geoespaciales.</p>
+				<br />
+				<p>CENTRO DE INVESTIGACIONES CIENTÍFICAS. BLOQUE CEINCI UNIVERSIDAD DE LAS FUERZAS ARMADAS - ESPE. CAMPUS PRINCIPAL</p>
+				<br />
+				<p>Av. Gral Rumiñahui S/N y Paseo Escénico Santa Clara.Sangolquí - Ecuador. Teléfono: (02) 3989-492</p>
 
-    </section>
+			</article>
+			<article id="tab3">
+				<h1>Integrantes</h1>
+				<p>El Grupo de Investigación Geoespacial (GIGeo) cuenta con un grupo selecto de personal calificado en las diversas áreas de las geociencias, así como de las tecnologías espaciales, a fin de brindar al público en general, las garantías necesarias en el desarrollo de nuevos conocimientos en los diferentes campos de estudio.</p>
+				<br />
+				<p>CENTRO DE INVESTIGACIONES CIENTÍFICAS. BLOQUE CEINCI UNIVERSIDAD DE LAS FUERZAS ARMADAS - ESPE. CAMPUS PRINCIPAL</p>
+				<br />
+				<p>Av. Gral Rumiñahui S/N y Paseo Escénico Santa Clara.Sangolquí - Ecuador. Teléfono: (02) 3989-492</p>
+			</article>
+			<article id="tab4">
+				<h1>Articulos Cientificos</h1>
+				<br />
+				<h4>2016</h4>
+				<br />
+				<p>Ziggah, Y. Y., Youjian, H., Tierra, A., Konaté, A. A., & Hui, Z. (2016). Performance evaluation of artificial neural networks for planimetric coordinate transformation — a case study, Ghana. Arabian Journal of Geosciences, 9(17), 698. https://doi.org/10.1007/s12517-016-2729-7</p>
+				<a class="boton" target="_blank" rel="noopener" href="https://link.springer.com/article/10.1007/s12517-016-2729-7">
+					Mas informacion
+				</a>
+				<h1>Revista Geoespacial</h1>
+				<br />
+				<h4>Presentacion</h4>
+				<br />
+				<p>La Revista Geoespacial, ha sido desde el año 2004, el instrumento base para la presentación y difusión de las investigaciones generadas tanto en el ámbito nacional, como internacional, relacionadas con el área de las Ciencias de la Tierra y las Tecnologías Geoespaciales.</p>
+				<p>De esta manera, se consolida como una revista de difusión científica y tecnológica cuyas investigaciones se encuentran relacionadas con el campo de las geociencias, tales como: la Geodesia, la Geodinámica, los Sensores Remotos, las Tecnologías de Información Geográfica como los Sistemas de Información Geográfica SIG e Infraestructura de Datos Espaciales-IDES.</p>
+				<p>La revista Geoespacial, posee un periodo de publicación semestral, ISSN 1390-3993 y ha sido CLASIFICADA e INDEXADA como parte del DIRECTORIO y CATÁLOGO del Sistema Regional de Información en Línea para Revistas Científicas de América Latina, el Caribe, España y Portugal, LATINDEX, cumpliendo con todos los parámetros y estándares estipulados por la Secretaría de Educación Superior, Ciencia, Tecnología e Innovación, SENESCYT, a través del Acuerdo N.- 2015-117. Título II. Del Listado de Publicaciones Indexadas Constantes en los Diferentes Sistemas Indexadores, para ser reconocida como una Publicación Arbitrada e Indexada para su reconocimiento inmediato. (Para mayores detalles acerca de su indexación, ver aquí).</p>
+				<br />
+				<h1>Tesis</h1>
+				<br />
+				<h4>2016</h4>
+				<br />
+				<p>Agila, G., Gonzalo, H., & Zambrano Solís, M. J. (2016). Determinación de los modelos de predicción espacial para la transformación de coordenadas entre los sistemas PSAD56 E ITRF94, época 1995-4, utilizando técnicas geoestadísticas (Bachelor’s thesis, Universidad de las Fuerzas Armadas ESPE. Carrera de Ingeniería Geográfica y del Medio Ambiente.).</p>
+				<a class="boton" target="_blank" rel="noopener" href="http://repositorio.espe.edu.ec/handle/21000/11734">
+					Mas informacion
+				</a>
+				<br />
+				<br />
+				<p>CENTRO DE INVESTIGACIONES CIENTÍFICAS. BLOQUE CEINCI UNIVERSIDAD DE LAS FUERZAS ARMADAS - ESPE. CAMPUS PRINCIPAL</p>
+				<br />
+				<p>Av. Gral Rumiñahui S/N y Paseo Escénico Santa Clara.Sangolquí - Ecuador. Teléfono: (02) 3989-492</p>
 
-    <main class="contenedor sombra">
-        <h2> Participantes </h2>
-        <div class="servicios">
-            <section class="servicio">
-                <h3>Investigadores</h3>
-                <div class="iconos">
-                    <i class="fa-solid fa-people-group"></i>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40"
-                        height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path
-                            d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
-                        <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
-                        <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
-                        <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
-                    </svg>
-                </div>
-
-
-                <p>Licenciados en educacion fisica de la Universidad de las Fuerzas Armadas ESPE.</p>
-            </section>
-
-            <section class="servicio">
-                <h3>Colaboradores</h3>
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android"
-                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <line x1="4" y1="10" x2="4" y2="16" />
-                        <line x1="20" y1="10" x2="20" y2="16" />
-                        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
-                        <line x1="8" y1="3" x2="9" y2="5" />
-                        <line x1="16" y1="3" x2="15" y2="5" />
-                        <line x1="9" y1="18" x2="9" y2="21" />
-                        <line x1="15" y1="18" x2="15" y2="21" />
-                    </svg>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple" width="44"
-                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path
-                            d="M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z" />
-                        <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
-                    </svg>
-                </div>
-                <p>Ingenieros de las Carreas de Medicina y Boitecnologia de la Universidad de las Fuerzas Armadas ESPE.</p>
-            </section>
-
-            <section class="servicio">
-                <h3>Estudiantes</h3>
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="44"
-                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <rect x="3" y="5" width="18" height="14" rx="3" />
-                        <line x1="3" y1="10" x2="21" y2="10" />
-                        <line x1="7" y1="15" x2="7.01" y2="15" />
-                        <line x1="11" y1="15" x2="13" y2="15" />
-                    </svg>
-                </div>
-                <p>Estudiantes de Educacion Fisica, Medicina y Boitecnologia de la Universidad de las Fuerzas Armadas ESPE</p>
-            </section>
-        </div>
-        <!--servicios-->
-
-        <section>
-            <h2>Contactanos si deseas ser participe de la investigacion</h2>
-
-            <form class="formulario">
-                <fieldset>
-                    <legend>Contactanos llenando todos los campos</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label for="">Nombre</label>
-                            <input class="input-text" type="text" placeholder="Tu Nombre">
-                        </div>
-                        <div class="campo">
-                            <label for="">Telefono</label>
-                            <input class="input-text" type="tel" placeholder="Tu telefono">
-                        </div>
-                        <div class="campo">
-                            <label for="">Correo</label>
-                            <input class="input-text" type="Email" placeholder="Tu Email">
-                        </div>
-                        <div class="campo">
-                            <label for="">Mensaje</label>
-                            <textarea class="input-text"></textarea>
-                        </div>
-                    </div>
-                    <!--./contenedor-campos-->
-                    <div class=" alinear-derecha flex">
-                    <input class="boton w-sm-100" type="submit" value="Enviar">
-                </div>  
-                </fieldset>
-            </form>
-        </section>
-    </main>
-    <footer class="footer">
-        <p>Todos los derechos reservados. ESPE</p>
-    </footer>
+			</article>
+		</div>
+	</div>
 </body>
-
 </html>
